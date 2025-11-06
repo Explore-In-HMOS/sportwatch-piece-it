@@ -1,0 +1,26 @@
+<div class="container" onswipe="swipe">
+    <div class="mainContainer">
+        <div class="tile-row">
+            <image src="common/level2/1.PNG" class="image"
+                   style="animation-name: {{ imageStates[0].animationName }};"
+                   onclick="rotateImage($event, 0)">
+            </image>
+            <image src="common/level2/2.PNG" class="image"
+                   style="animation-name: {{ imageStates[1].animationName }};"
+                   onclick="rotateImage($event, 1)">
+            </image>
+            <image src="common/level2/3.PNG" class="image"
+                   style="animation-name: {{ imageStates[2].animationName }};"
+                   onclick="rotateImage($event, 2)">
+            </image>
+        </div>
+
+        <image
+                src="common/nextLevel.png"
+                class="nextLevel"
+                style="opacity: {{ isWon ? 1 : 0 }};
+                        pointer-events: {{ isWon ? 'auto' : 'none' }};"
+                onclick="goNextLevel">
+        </image>
+    </div>
+</div>
