@@ -21,7 +21,7 @@ export default {
         const currentIndex = state.index;
         const nextIndex = (currentIndex + 1) % 4;
         state.index = nextIndex;
-        state.animationName = "rotate" + currentIndex;
+        state.animationName = `rotate` + currentIndex;
 
         this.checkIfWon();
     },

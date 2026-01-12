@@ -1,6 +1,6 @@
-> **Note:** To access all shared projects, get information about environment setup, and view other guides, please visit [Explore-In-HMOS-Wearable Index](https://github.com/Explore-In-HMOS-Wearable/hmos-index).
+> **Note:** To access all shared projects, get information about environment setup, and view other guides, please visit 
 
-# PieceIt
+# sportwatch-piece-it
 
 PieceIt is a simple yet challenging visual alignment game designed for Huawei Lite Wearable devices. 
 Players rotate image tiles to correctly align all pieces and unlock the next level.
@@ -9,10 +9,10 @@ Each level features a unique grid layout and progressively increasing difficulty
 # Preview
 
 <div>
-    <img src="screenshots/1.PNG" width="24%"/>
-    <img src="screenshots/2.PNG" width="24%"/>
-    <img src="screenshots/3.PNG" width="24%"/>
-    <img src="screenshots/4.PNG" width="24%"/>
+    <img src="./screenshots/1.PNG" width="24%"/>
+    <img src="./screenshots/2.PNG" width="24%"/>
+    <img src="./screenshots/3.PNG" width="24%"/>
+    <img src="./screenshots/4.PNG" width="24%"/>
 </div>
 
 # Use Cases
@@ -44,7 +44,7 @@ Can be used as a foundation for building more complex puzzle or logic-based game
 - **Tools**: DevEco Studio Vers 5.1.0.842
 - **Libraries**: @ohos.router
 - 
-# Project Directory
+# Directory Structure
    ```
    src/main/js/MainAbility/pages/
    |---index
@@ -65,5 +65,6 @@ Can be used as a foundation for building more complex puzzle or logic-based game
 ## Suported Devices
 - Huawei Lite Wearable
 
-**PieceItApp** is distributed under the terms of the MIT License
+# License
+**sportwatch-piece-it** is distributed under the terms of the MIT License
 See the [LICENSE](./LICENSE) for more information.

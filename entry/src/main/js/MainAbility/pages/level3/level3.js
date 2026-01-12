@@ -1,5 +1,4 @@
 import app from '@system.app';
-import router from '@ohos.router';
 
 export default {
     data: {
@@ -21,7 +20,7 @@ export default {
         const currentIndex = state.index;
         const nextIndex = (currentIndex + 1) % 4;
         state.index = nextIndex;
-        state.animationName = "rotate" + currentIndex;
+        state.animationName = `rotate` + currentIndex;
         let allZeroNow = true;
         for (let j = 0; j < this.imageStates.length; j++) {
             if (this.imageStates[j].index !== 0) {

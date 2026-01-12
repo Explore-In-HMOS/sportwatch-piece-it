@@ -15,7 +15,7 @@ export default {
         const state = this.imageStates[i];
         const currentIndex = state.index;
         const nextIndex = (currentIndex + 1) % 4;
-        state.animationName = "rotate" + currentIndex;
+        state.animationName = `rotate` + currentIndex;;
         state.index = nextIndex;
         this.isWon = this.imageStates.every(img => img.index === 0);
     },
