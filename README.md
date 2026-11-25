@@ -2,7 +2,7 @@
 
 # sportwatch-piece-it
 
-PieceIt is a simple yet challenging visual alignment game designed for Huawei Lite Wearable devices. 
+PieceIt is a simple yet challenging visual alignment game designed for Huawei SportWatch devices. 
 Players rotate image tiles to correctly align all pieces and unlock the next level.
 Each level features a unique grid layout and progressively increasing difficulty.
 
@@ -63,7 +63,7 @@ Can be used as a foundation for building more complex puzzle or logic-based game
 
 # Constraints and Restrictions
 ## Suported Devices
-- Huawei Lite Wearable
+- Huawei SportWatch
 
 # License
 **sportwatch-piece-it** is distributed under the terms of the MIT License
